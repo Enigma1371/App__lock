@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".PatternActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Please Draw Pattern"
+    android:layout_marginTop="16dp"
+    android:textColor="@color/white"
+    android:id="@+id/pattern_label"
+    android:textSize="18sp"
+    android:layout_marginBottom="16dp"
+    android:layout_gravity="center|top"
+    android:gravity="center"/>
+    <com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/pattern_lock_view"
+        android:layout_width="280dp"
+        android:layout_gravity="center"
+        android:layout_height="280dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:id="@+id/pattern_cancel"
+        android:text="Cancel"/>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AppLock</string>
+    <string-array name="lock_type">
+
+        <item>PATTERN</item>
+        <item>PIN</item>
+    </string-array>
+</resources>
